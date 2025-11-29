@@ -43,8 +43,8 @@ void setupWiFi() {
 /* ************************************************************************ */
 
 void setup() {
-    Serial.begin(9600);
-    setupWiFi();                             // เชื่อมต่อ WiFi
+    Serial.begin(9600);    // baud rate = 9600 bps
+    setupWiFi();           // เชื่อมต่อ WiFi
 }
 
 void loop() {
