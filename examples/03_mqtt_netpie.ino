@@ -28,8 +28,8 @@
 /* ************************************************************************ */
 
 // WiFi information
-char* ssid = "";
-char* pass = "";
+char* ssid = "Username"; // เปลี่ยนเป็น ชื่อ WiFi
+char* pass = "password"; // เปลี่ยนเป็น รหัส WiFi
 
 // MQTT to NETPIE 
 // https://docs.netpie.io/mqtt-api.html
