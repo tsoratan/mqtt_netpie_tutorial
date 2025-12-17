@@ -28,16 +28,16 @@
 /* ************************************************************************ */
 
 // WiFi information
-char* ssid = "Username";
-char* pass = "password";
+char* ssid = "Username"; // เปลี่ยนเป็น ชื่อ WiFi
+char* pass = "password"; // เปลี่ยนเป็น รหัส WiFi
 
 // MQTT to NETPIE 
 // https://docs.netpie.io/mqtt-api.html
 const char* mqttServer = "broker.netpie.io"; // MQTT broker address
 const int mqttPort = 1883; // PORT: 1883 for MQTT, 1884 for MQTTs              
-const char* mqttClientID = "af7c86a4-cfb5-4bf3-b979-c39c70ed931f";
-const char* mqttToken = "63x4eedJ6vLKqfDjeWhPVvmLdqeryTw4";
-const char* mqttSecret = "c6pU8cHeekL4vkoZpbz136RPy4TWjEme";
+const char* mqttClientID = "";
+const char* mqttToken = "";
+const char* mqttSecret = "";
 
 /* ************************************************************************ */
 /*      Code Section                                                        */
